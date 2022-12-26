@@ -1,0 +1,41 @@
+{
+  "name": "reverse-light",
+  "displayName": "Reverse Light",
+  "description": "Apenas um tema claro *_*",
+  "version": "0.0.1",
+  "publisher": "JandeMasmo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandemasmo/reverse-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jandemasmo/reverse-light.git",
+    "email": "jandemasmo@yahoo.com"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#3f3f3f",
+    "theme": "light"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "javascript",
+    "vscode"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Reverse Light",
+        "uiTheme": "vs",
+        "path": "./themes/Reverse Light-color-theme.json"
+      }
+    ]
+  }
+}
